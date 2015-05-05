@@ -1,0 +1,137 @@
+body {color: black; background: #FFFFFF; margin: 0; padding: 0; font-size:12px;}
+
+table td {padding:0; border-width:0; vertical-align:top; font-size:12px;}
+a        {color:#0000FF; text-decoration:underline;}
+a:hover  {color:#FF3300; text-decoration:underline;}
+
+ul       {margin:2px; padding:2px; list-style:decimal inside; text-align:left;}
+li       {margin-left:2px; list-style:square inside; color:#000000}
+
+th       {background-color:#778EC2; color:#FFFFFF; padding:3px; vertical-align:middle; font-family:Verdana, Arial, Helvetica, sans-serif;}
+th      a{color:#FFFFFF;}
+abbr, acronym, .help {border-bottom:1px dashed black;cursor:help;}
+
+td#header {width:75px; vertical-align: top; text-align:center; font-size:10px;}
+td#headerlogo {width:250px; vertical-align: middle; text-align:center;}
+td#search {background-color:#E6E6E6; border:1px solid #666666; text-align:center; vertical-align:bottom;}
+
+#leftcolumn  {width:170px; font-size:11px;}
+#rightcolumn {width:170px; font-size:11px; border: 1px solid #666666;}
+#centercolumn {background-color:#FFFFFF; color:#000000; padding :5px; font-size:11px}
+div#content  {text-align: left; font-size: 11px;color:#000000;}
+
+td#centerCcolumn {padding: 3px 3px 1px 3px;font-size:11px}
+td#centerCcolumn div.blockTitle {padding: 3px; font-weight: bold; border-bottom:1px solid #BFBEBE; background-color:#FFE8BA;font-size:12px;text-align:left;}
+td#centerCcolumn div.blockContent {padding: 3px;line-height:120%; color:#000000;font-size:11px;text-align: left;}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 3px;}
+td#centerLcolumn div.blockTitle {padding: 3px; font-weight: bold; background-color:#EFEFFF; font-size:12px;text-align:left;}
+td#centerLcolumn div.blockContent {padding: 3px; line-height: 120%; font-size:12px;text-align: left;}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 3px;}
+td#centerRcolumn div.blockTitle {padding: 3px; font-weight: bold; background-color:#EAF6EC; font-size:12px;text-align:left;}
+td#centerRcolumn div.blockContent {padding: 3px; line-height: 120%; font-size:12px;text-align: left;}
+
+div.spacer         {clear: both;}
+div.row span.left  {float: left; text-align: left; font-weight: bold; color: #fff; margin-left:33px; width: 50%;}
+div.row span.right {float: right; text-align: right; font-weight: bold;	padding-right:20px; color: #fff; width: 30%;}
+
+/* LeftBar Title Blocks */
+.leftTitle1, .leftTitle2, .leftTitle3, .leftTitle4
+		{font-family: trebuchet ms, trebuchet, arial, lucilda; font-weight:bold; vertical-align:middle;padding:3px 2px 1px 5px;}
+
+.leftTitle1 {color: #FFFFFF; background: #4D99E5; font-size:11px;text-align:left;}
+.leftTitle2 {color: #FFFFFF; background: #66CC66; font-size:11px;text-align:left;}
+.leftTitle3 {color: #FFFFFF; background: #9B72CF; font-size:11px;text-align:left;}
+.leftTitle4 {color: #FFFFFF; background: #9B72CF; font-size:11px;text-align:left;}
+
+
+/* LeftBar Content Blocks */
+.leftContent1, .leftContent2, .leftContent3, .leftContent4
+{font-family: trebuchet ms, trebuchet, arial, lucilda; padding-left: 5px; padding-bottom:5px;}
+
+.leftContent1 {color:#000000; background:#E5F6FF; font-size: 10px;}
+
+.leftContent2 {color:#000000; background:#EBFCBB; font-size: 10px;}
+
+.leftContent3 {color:#000000; background:#F1F1FD; font-size: 10px;}
+
+.leftContent4 {color:#000000; background:#F1F1FD; font-size: 10px;}
+
+/* Rightbar Title Blocks */
+.rightTitle1, .rightTitle2, .rightTitle3
+		{font-family: trebuchet ms, trebuchet, arial, lucilda;font-weight:bold; vertical-align:middle;padding:3px 2px 1px 5px;}
+		
+.rightTitle1 {color: #000000; font-size:11px;text-align:left;}
+.rightTitle2 {color: #000000; font-size:11px;text-align:left;}
+.rightTitle3 {color: #000000; font-size:11px;text-align:left;}
+
+
+/* Rightbar Content Blocks */
+.rightContent1, .rightContent2, .rightContent3 
+{font-family:arial, helvetica, sans-serif; padding:5px 10px; line-height:140%;}
+				
+.rightContent1 {color:#000000; background:tranparent; font-size:10px;text-align:left;}
+
+.rightContent2 {color:#000000; background:tranparent; font-size:10px;text-align:left;}
+
+.rightContent3 {color:#000000; background:tranparent; font-size:10px;text-align:left;}
+
+
+.item          {border: 1px solid #cccccc;font-size:1em;}
+.itemHead      {padding: 3px; background-color: #DFDFDF;border-bottom:1px solid #999999;}
+.itemInfo      {text-align: right; padding: 3px; background-color: #efefef}
+.itemPoster    {font-size: 90%;}
+.itemPostDate  {font-size: 90%;}
+.itemStats     {font-size: 90%;}
+.itemBody      {padding-left: 10px;}
+.itemText      {margin-top: 5px; margin-bottom: 5px; line-height: 1.3em;font-size:12px;}
+.itemText:first-letter {font-size: 150%; font-weight: bold;}
+.itemFoot      {text-align: right; padding: 3px; background-color: #efefef}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #0083D7; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #0083D7; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.outer     {border:1px solid silver;}
+.head      {background-color:#D1E4FF; color:#222222; padding:5px; font-weight:bold;}
+.even      {background-color:#FEFEFE; padding:5px;}
+.odd       {background-color:#EEF8FD; padding:5px;}
+.foot      {background-color:#c2cdd6; padding:5px; font-weight:bold;}
+tr.even td {background-color:#FEFEFE; padding:5px;}
+tr.odd td  {background-color:#EEF8FD; padding:5px;}
+
+.head td  {background-color:#D1E4FF; color:#222; padding:5px; font-weight:bold;}
+.head a:link  {color:#333;text-decoration:none;}
+.head a:hover {color:#333;text-decoration:underline;}
+
+.navtext {font-size:12px; vertical-align: bottom;}
+.navinput {width: 32em; height: 14px; font-size: 90%; border:1px solid #999999; background-color: #FFFFFF; padding:0px; vertical-align: bottom;}
+.navinputImage {vertical-align: bottom;}
+
+td#footbar {text-align:center;font-size:12px; padding: 5px;}
+
+div.errorMsg {background-color:#FFCCCC; text-align:center; border-top:1px solid #DDDDFF; border-left:1px solid #DDDDFF; 
+		border-right:1px solid #AAAAAA; border-bottom:1px solid #AAAAAA; font-weight:bold; padding:10px;}
+div.confirmMsg {background-color:#DDFFDF; color:#136C99; text-align:center; border-top:1px solid #DDDDFF; 
+		border-left:1px solid #DDDDFF; border-right:1px solid #AAAAAA; border-bottom:1px solid #AAAAAA; font-weight:bold; padding:10px;}
+div.resultMsg {background-color:#CCCCCC; color:#333333; text-align:center; border-top:1px solid silver; border-left:1px solid silver; 
+		font-weight:bold; border-right:1px solid #666666; border-bottom:1px solid #666666; padding:10px;}
+
+div.xoopsCode  {background:#FFFFFF; border:1px inset #000080; font-family:"Courier New",Courier,monospace; padding:0px 6px 6px 6px;}
+div.xoopsQuote {background:#FFFFFF; border:1px inset #000080; font-family:"Courier New",Courier,monospace; padding:0px 6px 6px 6px;}
+
+table    {margin:0; padding:0; voice-family: "\"}\""; /* some browsers have a parsing bug */
+                         /* and will ignore the following rules */
+  voice-family: inherit;width:100%;}
